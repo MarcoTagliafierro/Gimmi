@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A910B38F28B7BF0F00FD5AED /* Gimmi_git_safeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A910B38E28B7BF0F00FD5AED /* Gimmi_git_safeApp.swift */; };
 		A910B39128B7BF0F00FD5AED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A910B39028B7BF0F00FD5AED /* ContentView.swift */; };
 		A910B39328B7BF1000FD5AED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A910B39228B7BF1000FD5AED /* Assets.xcassets */; };
 		A910B39628B7BF1000FD5AED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A910B39528B7BF1000FD5AED /* Preview Assets.xcassets */; };
 		A910B3A028B7BF1000FD5AED /* Gimmi_git_safeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A910B39F28B7BF1000FD5AED /* Gimmi_git_safeTests.swift */; };
 		A910B3AA28B7BF1000FD5AED /* Gimmi_git_safeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A910B3A928B7BF1000FD5AED /* Gimmi_git_safeUITests.swift */; };
 		A910B3AC28B7BF1000FD5AED /* Gimmi_git_safeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A910B3AB28B7BF1000FD5AED /* Gimmi_git_safeUITestsLaunchTests.swift */; };
+		A910B3BD28B7BF2700FD5AED /* GimmiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A910B3B828B7BF2700FD5AED /* GimmiApp.swift */; };
+		A910B3BE28B7BF2700FD5AED /* ViewModels in Resources */ = {isa = PBXBuildFile; fileRef = A910B3B928B7BF2700FD5AED /* ViewModels */; };
+		A910B3BF28B7BF2700FD5AED /* Views in Resources */ = {isa = PBXBuildFile; fileRef = A910B3BA28B7BF2700FD5AED /* Views */; };
+		A910B3C028B7BF2700FD5AED /* Utilities in Resources */ = {isa = PBXBuildFile; fileRef = A910B3BB28B7BF2700FD5AED /* Utilities */; };
+		A910B3C128B7BF2700FD5AED /* Model in Resources */ = {isa = PBXBuildFile; fileRef = A910B3BC28B7BF2700FD5AED /* Model */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +39,6 @@
 
 /* Begin PBXFileReference section */
 		A910B38B28B7BF0F00FD5AED /* Gimmi_git_safe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gimmi_git_safe.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A910B38E28B7BF0F00FD5AED /* Gimmi_git_safeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gimmi_git_safeApp.swift; sourceTree = "<group>"; };
 		A910B39028B7BF0F00FD5AED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A910B39228B7BF1000FD5AED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A910B39528B7BF1000FD5AED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -44,6 +47,11 @@
 		A910B3A528B7BF1000FD5AED /* Gimmi_git_safeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gimmi_git_safeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A910B3A928B7BF1000FD5AED /* Gimmi_git_safeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gimmi_git_safeUITests.swift; sourceTree = "<group>"; };
 		A910B3AB28B7BF1000FD5AED /* Gimmi_git_safeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gimmi_git_safeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A910B3B828B7BF2700FD5AED /* GimmiApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GimmiApp.swift; sourceTree = "<group>"; };
+		A910B3B928B7BF2700FD5AED /* ViewModels */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ViewModels; sourceTree = "<group>"; };
+		A910B3BA28B7BF2700FD5AED /* Views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Views; sourceTree = "<group>"; };
+		A910B3BB28B7BF2700FD5AED /* Utilities */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Utilities; sourceTree = "<group>"; };
+		A910B3BC28B7BF2700FD5AED /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +102,11 @@
 		A910B38D28B7BF0F00FD5AED /* Gimmi_git_safe */ = {
 			isa = PBXGroup;
 			children = (
-				A910B38E28B7BF0F00FD5AED /* Gimmi_git_safeApp.swift */,
+				A910B3B828B7BF2700FD5AED /* GimmiApp.swift */,
+				A910B3BC28B7BF2700FD5AED /* Model */,
+				A910B3BB28B7BF2700FD5AED /* Utilities */,
+				A910B3B928B7BF2700FD5AED /* ViewModels */,
+				A910B3BA28B7BF2700FD5AED /* Views */,
 				A910B39028B7BF0F00FD5AED /* ContentView.swift */,
 				A910B39228B7BF1000FD5AED /* Assets.xcassets */,
 				A910B39428B7BF1000FD5AED /* Preview Content */,
@@ -231,8 +243,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A910B3C128B7BF2700FD5AED /* Model in Resources */,
 				A910B39628B7BF1000FD5AED /* Preview Assets.xcassets in Resources */,
 				A910B39328B7BF1000FD5AED /* Assets.xcassets in Resources */,
+				A910B3BE28B7BF2700FD5AED /* ViewModels in Resources */,
+				A910B3C028B7BF2700FD5AED /* Utilities in Resources */,
+				A910B3BF28B7BF2700FD5AED /* Views in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A910B39128B7BF0F00FD5AED /* ContentView.swift in Sources */,
-				A910B38F28B7BF0F00FD5AED /* Gimmi_git_safeApp.swift in Sources */,
+				A910B3BD28B7BF2700FD5AED /* GimmiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
